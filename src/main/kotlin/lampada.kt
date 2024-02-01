@@ -28,7 +28,7 @@ class Lampara {
         if (nuevaIntensidad in 0..5) {
             intensidad = nuevaIntensidad
         } else {
-            println("Error: La intensidad debe estar entre 0 y 5.")
+            println("Fallo: La intensidad debe estar entre 0 y 5.")
         }
     }
     override fun toString(): String {
